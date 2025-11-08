@@ -198,11 +198,6 @@ a {
     margin-right: 0.5rem;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
 
 #contacto {
     text-align: center;
@@ -221,13 +216,23 @@ a {
     border-top: 1px solid #333;
 }
 
+.skills-grid ul {
+    list-style: none; 
+}
+
+.skills-grid ul li {
+    background-color: var(--color-fondo); 
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border-left: 3px solid var(--color-primario); 
+    
+    display: flex; 
+    align-items: center; 
+}
+
 .skill-icon {
     margin-right: 8px; 
     font-size: 1.2em; 
     color: var(--color-primario); 
-}
-
-.skills-grid ul li {
-    display: flex; 
-    align-items: center; 
 }
