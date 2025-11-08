@@ -204,18 +204,6 @@ a {
     gap: 2rem;
 }
 
-.skills-grid ul {
-    list-style: none;
-}
-
-.skills-grid li {
-    background-color: var(--color-fondo);
-    padding: 0.5rem 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 5px;
-    border-left: 3px solid var(--color-primario);
-}
-
 #contacto {
     text-align: center;
 }
@@ -231,4 +219,15 @@ a {
     background-color: var(--color-tarjeta);
     margin-top: 3rem;
     border-top: 1px solid #333;
+}
+
+.skill-icon {
+    margin-right: 8px; 
+    font-size: 1.2em; 
+    color: var(--color-primario); 
+}
+
+.skills-grid ul li {
+    display: flex; 
+    align-items: center; 
 }
